@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width,intial-scale=1">
+		<title>Friends' Hangout</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/style.css">	
+		<link href="http://fonts.googleapis.com/css?family=Oxygen:400,300,700" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet" type="text/css">
+	</head>
+
+<body>
+	<header>
+		<nav id="header-nav" class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<a href="index.html" class="pull-left visible-md visible-lg">
+						<div id="logo-img" alt="Logo image"></div>
+					</a>
+					<div class="navbar-brand">
+						<a href="index.html"><h1>Friends' Hangout</h1></a>
+					</div>
+					 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            			<span class="sr-only">Toggle navigation</span>
+            			<span class="icon-bar"></span>
+           				 <span class="icon-bar"></span>
+            			<span class="icon-bar"></span>
+          			</button>
+				</div>
+				<div id="collapsable-nav" class="collapse navbar-collapse">
+					<ul id="nav-list" class="nav navbar-nav navbar-right">
+						<li>
+							<a href="menu-categories.html"><span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs">Menu</a>
+						</li>
+						<li>
+							<a href="#"><span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs">About</a>
+						</li>
+						<li>
+							<a href="#"><span class="glyphicon glyphicon-glass"></span><br class="hidden-xs">Cater Menu</a>
+						</li>
+						<li id="phone" class="hidden-xs">
+							<a href="tel:1800000000"><span>180-000-0000</span></a><div>* We Cater</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header> <!-- End of header-->
+	<div id="call-btn" class="visible-xs">
+		<a class="btn" href="tel:180-000-0000">
+			<span class="glyphicon glyphicon-earphone"></span>180-000-0000
+		</a>
+	</div>
+	<div id="xs-deliver" class="text-center visible-xs">* We Cater</div>
+
+	<div id="main-content" class="container">
+		<div class="jumbotron">
+			<img src="images/friend_767.jpg" alt="Picture Of Friend" class="img-responsive visible-xs">
+		</div>	
+	
+
+		<div id="home-tiles" class="row"> 
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<a href="menu-categories.html"><div id="menu-tile"><span>Menu</span></div></a>
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<a href="cater-menu.html"><div id="cater-tile"><span>Cater Menu</span></div></a>
+			</div>
+			<div class="col-md-4 col-sm-12 col-xs-12">
+				<a href="https://www.google.com/maps/place/6060+Village+Bend+Dr,+Dallas,+TX+75206/@32.852213,-96.7634785,17z/data=!3m1!4b1!4m5!3m4!1s0x864e9f9d42e30eaf:0xbfd185e7c248b019!8m2!3d32.852213!4d-96.7612898" target="_blank">
+					<div id="map-tile">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3351.737058343992!2d-96.76347848481605!3d32.85221298094927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864e9f9d42e30eaf%3A0xbfd185e7c248b019!2s6060+Village+Bend+Dr%2C+Dallas%2C+TX+75206!5e0!3m2!1sen!2sus!4v1472827942230" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+					<span>Map</span>
+					</div>
+				</a>
+			</div>
+		</div> <!-- End of home-tile-->
+	</div>     <!-- End of main-contect -->
+
+	<footer class="panel-footer">
+		<div class="container">
+			<div class="row">
+				<section id="hours" class="col-sm-4">
+					<span>Hours:</span><br>
+					Mon-Thurs: 5:00pm - 11:00pm<br>
+					Fri: 5:00pm - 1:00am<br>
+					Sat-Sun: 9:am - 11:00pm
+					<hr class="visible-xs"> 
+				</section>
+				<section id="address" class="col-sm-4">
+					<span>Address:</span><br>
+					6060 Village Bend Dr<br>
+					Dallas, TX 75206
+					<p>* We cater within 20 miles
+					<hr class="visible-xs">
+				</section>
+				<section id="testimonials" class="col-sm-4">
+					<p>"The best place where you can hangout with your friends with great food."</p>
+					<p>"Amazing food! Great Service! I'll be come back again soon!"</p>
+				</section>
+			</div>
+			<div class="text-center">&copy; Copyright Friends' Hangout</div>	
+			</div>
+		</div>
+		
+	</footer>
+
+	<script src="js/jquery-3.1.0.min.js"></script>
+	<script src="js/bootstap.min.js"></script>
+	<script src="js/script.js"></script>
+
+</body>	
+</html>
